@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <section class="container">
+        <div class="password-display">
+            <input type="text" id="password" name="password" readonly>
+        </div>
+
+        <div class="input-lenght">
+            <p>
+                <label for="password-length">Password Length:</label>
+            </p>
+            <input type="number" id="password-length" name="password-length" min="4" max="100" value="8">
+        </div>
+        <div class="generate-button">
+            <button onclick="generatePassword()">Generate Password</button>
+        </div>
+
+
+    </section>
+
+    <!-- js -->
+    <script src="main.js"></script>
+</body>
+
+</html>

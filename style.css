@@ -1,0 +1,103 @@
+body {
+    padding: 0;
+    margin: 0;
+    color: floralwhite;
+}
+
+
+
+.container {
+    text-align: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    background: #ffd900;
+    width: 700px;
+    margin: auto;
+}
+
+.password-display {
+    display: inline-block;
+    background-color: aliceblue;
+    width: 500px;
+}
+
+.password-display input {
+    border-radius: 5px;
+    background-color: aliceblue;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    border: 0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.input-lenght {
+    text-align: center;
+    display: inline-block;
+    width: 500px;
+}
+
+.input-lenght input {
+    border-radius: 5px;
+    background-color: aliceblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    border: 0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.input-lenght label {
+    font-size: 30px;
+    font-weight: 500;
+    color: blue;
+
+}
+
+.generate-button {
+    text-align: center;
+}
+
+.generate-button button {
+    padding: 20px 30px;
+    margin-top: 30px;
+    background: #ffea00;
+    border: 0;
+    color: rgb(13, 0, 255);
+    font-size: 20px;
+    border-top: 1px solid #0048ff;
+    border-bottom: 5px solid #002aff;
+    border-radius: 20px;
+}
+
+.generate-button button:hover {
+    background: #efde26;
+}
+
+@media(max-width:768px) {
+    body {
+        background: #ffd900;
+    }
+
+    .container {
+        width: 100%;
+        padding-top: 40px;
+        padding-left: 0px;
+    }
+
+    .password-display {
+        width: 90%;
+    }
+
+    .input-lenght {
+        width: 90%;
+    }
+}
